@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0bfe312e-013f-482a-84d7-6263107da540" name="Changes" comment="dz kopiy">
-      <change afterPath="$PROJECT_DIR$/ur78.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ur79.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ur80.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ur81.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/films_db.sqlite" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reqirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pJRiBrKeYyQ.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,6 +60,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
+    "Python.main.executor": "Run",
     "Python.prg1.executor": "Run",
     "Python.qqqw.executor": "Run",
     "Python.qqqw10.executor": "Run",
@@ -86,7 +88,7 @@
     "Python.ur81.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "pythone.esson0",
-    "last_opened_file_path": "C:/Users/Bad/Desktop/proba",
+    "last_opened_file_path": "C:/Users/Bad/Desktop/proba/static/images",
     "settings.editor.selected.configurable": "preferences.externalTools"
   },
   "keyToStringList": {
@@ -97,6 +99,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Bad\Desktop\proba\static\images" />
       <recent name="C:\Users\Bad\Desktop\proba" />
       <recent name="C:\Users\Bad\Desktop\proba\unearth\images" />
     </key>
@@ -104,8 +107,8 @@
       <recent name="C:\Users\Bad\Desktop\proba" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="qqqw" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.main">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="proba" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -118,7 +121,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/qqqw.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -217,11 +220,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.ur75" />
         <item itemvalue="Python.ur76" />
         <item itemvalue="Python.qqqw2" />
         <item itemvalue="Python.qqqw5" />
-        <item itemvalue="Python.qqqw" />
       </list>
     </recent_temporary>
   </component>
@@ -337,7 +340,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732484620112</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="dz kopiy">
+      <option name="closed" value="true" />
+      <created>1732486508906</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1732486508906</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
