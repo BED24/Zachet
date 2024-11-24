@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0bfe312e-013f-482a-84d7-6263107da540" name="Changes" comment="dz kopiy">
-      <change afterPath="$PROJECT_DIR$/ur72.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ur73.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ur74.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ur75.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ur76.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ur77.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ur78.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ur79.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ur80.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ur81.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,40 +56,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;Python.prg1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.qqqw.executor&quot;: &quot;Run&quot;,
-    &quot;Python.qqqw10.executor&quot;: &quot;Run&quot;,
-    &quot;Python.qqqw2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.qqqw4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.qqqw5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.qqqw6.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.qqqw7.executor&quot;: &quot;Run&quot;,
-    &quot;Python.qqqw8.executor&quot;: &quot;Run&quot;,
-    &quot;Python.qqqw_3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.qwe.executor&quot;: &quot;Run&quot;,
-    &quot;Python.qwww9.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ur.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ur67.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ur71.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ur72.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ur73.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ur74.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ur75.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ur76.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;pythone.esson0&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Bad/Desktop/proba&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.externalTools&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Python.prg1.executor": "Run",
+    "Python.qqqw.executor": "Run",
+    "Python.qqqw10.executor": "Run",
+    "Python.qqqw2.executor": "Run",
+    "Python.qqqw4.executor": "Run",
+    "Python.qqqw5.executor": "Run",
+    "Python.qqqw6.executor": "Debug",
+    "Python.qqqw7.executor": "Run",
+    "Python.qqqw8.executor": "Run",
+    "Python.qqqw_3.executor": "Run",
+    "Python.qwe.executor": "Run",
+    "Python.qwww9.executor": "Run",
+    "Python.ur.executor": "Run",
+    "Python.ur67.executor": "Run",
+    "Python.ur71.executor": "Run",
+    "Python.ur72.executor": "Run",
+    "Python.ur73.executor": "Run",
+    "Python.ur74.executor": "Run",
+    "Python.ur75.executor": "Run",
+    "Python.ur76.executor": "Run",
+    "Python.ur77.executor": "Run",
+    "Python.ur78.executor": "Run",
+    "Python.ur79.executor": "Run",
+    "Python.ur80.executor": "Run",
+    "Python.ur81.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "pythone.esson0",
+    "last_opened_file_path": "C:/Users/Bad/Desktop/proba",
+    "settings.editor.selected.configurable": "preferences.externalTools"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ChangesTree.GroupingKeys&quot;: [
-      &quot;directory&quot;
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Bad\Desktop\proba" />
@@ -102,7 +104,7 @@
       <recent name="C:\Users\Bad\Desktop\proba" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ur75">
+  <component name="RunManager">
     <configuration name="qqqw" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="proba" />
       <option name="ENV_FILES" value="" />
@@ -327,7 +329,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728858501576</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="dz kopiy">
+      <option name="closed" value="true" />
+      <created>1732484620112</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1732484620112</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
