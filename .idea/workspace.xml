@@ -5,12 +5,154 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0bfe312e-013f-482a-84d7-6263107da540" name="Changes" comment="dz kopiy">
-      <change afterPath="$PROJECT_DIR$/films_db.sqlite" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reqirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/pJRiBrKeYyQ.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flask_app/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/_site-base.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/_site-blocks.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/_site-navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/bootstrap/_alert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/bootstrap/_badge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/bootstrap/_breadcrumb.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/bootstrap/_button-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/bootstrap/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/bootstrap/_card.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/bootstrap/_carousel.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/bootstrap/_close.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/bootstrap/_code.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/bootstrap/_custom-forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/bootstrap/_dropdown.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/bootstrap/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/bootstrap/_functions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/bootstrap/_grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/bootstrap/_images.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/bootstrap/_input-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/bootstrap/_jumbotron.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/bootstrap/_list-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/bootstrap/_media.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/bootstrap/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/bootstrap/_modal.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/bootstrap/_nav.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/bootstrap/_navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/bootstrap/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/bootstrap/_popover.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/bootstrap/_print.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/bootstrap/_progress.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/bootstrap/_reboot.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/bootstrap/_root.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/bootstrap/_spinners.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/bootstrap/_tables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/bootstrap/_toasts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/bootstrap/_tooltip.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/bootstrap/_transitions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/bootstrap/_type.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/bootstrap/_utilities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/bootstrap/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/bootstrap/bootstrap-grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/bootstrap/bootstrap-reboot.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/bootstrap/bootstrap.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/bootstrap/mixins/_alert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/bootstrap/mixins/_background-variant.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/bootstrap/mixins/_badge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/bootstrap/mixins/_border-radius.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/bootstrap/mixins/_box-shadow.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/bootstrap/mixins/_breakpoints.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/bootstrap/mixins/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/bootstrap/mixins/_caret.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/bootstrap/mixins/_clearfix.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/bootstrap/mixins/_deprecate.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/bootstrap/mixins/_float.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/bootstrap/mixins/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/bootstrap/mixins/_gradients.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/bootstrap/mixins/_grid-framework.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/bootstrap/mixins/_grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/bootstrap/mixins/_hover.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/bootstrap/mixins/_image.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/bootstrap/mixins/_list-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/bootstrap/mixins/_lists.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/bootstrap/mixins/_nav-divider.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/bootstrap/mixins/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/bootstrap/mixins/_reset-text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/bootstrap/mixins/_resize.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/bootstrap/mixins/_screen-reader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/bootstrap/mixins/_size.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/bootstrap/mixins/_table-row.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/bootstrap/mixins/_text-emphasis.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/bootstrap/mixins/_text-hide.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/bootstrap/mixins/_text-truncate.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/bootstrap/mixins/_transition.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/bootstrap/mixins/_visibility.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/bootstrap/utilities/_align.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/bootstrap/utilities/_background.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/bootstrap/utilities/_borders.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/bootstrap/utilities/_clearfix.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/bootstrap/utilities/_display.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/bootstrap/utilities/_embed.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/bootstrap/utilities/_flex.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/bootstrap/utilities/_float.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/bootstrap/utilities/_overflow.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/bootstrap/utilities/_position.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/bootstrap/utilities/_screenreaders.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/bootstrap/utilities/_shadows.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/bootstrap/utilities/_sizing.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/bootstrap/utilities/_spacing.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/bootstrap/utilities/_stretched-link.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/bootstrap/utilities/_text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/bootstrap/utilities/_visibility.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/bootstrap/vendor/_rfs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scss/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/films_db.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/Uroki/films_db.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/Uroki/icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/info.html" beforeDir="false" afterPath="$PROJECT_DIR$/info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/aos.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/aos.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery-migrate-3.0.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/jquery-migrate-3.0.1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepros-6.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/press-single.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqqw.py" beforeDir="false" afterPath="$PROJECT_DIR$/Uroki/qqqw.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqqw10.py" beforeDir="false" afterPath="$PROJECT_DIR$/Uroki/qqqw10.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqqw11.py" beforeDir="false" afterPath="$PROJECT_DIR$/Uroki/qqqw11.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqqw2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Uroki/qqqw2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqqw4.py" beforeDir="false" afterPath="$PROJECT_DIR$/Uroki/qqqw4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqqw5.py" beforeDir="false" afterPath="$PROJECT_DIR$/Uroki/qqqw5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqqw6.py" beforeDir="false" afterPath="$PROJECT_DIR$/Uroki/qqqw6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqqw7.py" beforeDir="false" afterPath="$PROJECT_DIR$/Uroki/qqqw7.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqqw8.py" beforeDir="false" afterPath="$PROJECT_DIR$/Uroki/qqqw8.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqqw_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Uroki/qqqw_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwww9.py" beforeDir="false" afterPath="$PROJECT_DIR$/Uroki/qwww9.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/single.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/pJRiBrKeYyQ.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Uroki/static/images/pJRiBrKeYyQ.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ur61.py" beforeDir="false" afterPath="$PROJECT_DIR$/Uroki/ur61.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ur62.py" beforeDir="false" afterPath="$PROJECT_DIR$/Uroki/ur62.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ur63" beforeDir="false" afterPath="$PROJECT_DIR$/Uroki/ur63" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ur64.py" beforeDir="false" afterPath="$PROJECT_DIR$/Uroki/ur64.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ur65.py" beforeDir="false" afterPath="$PROJECT_DIR$/Uroki/ur65.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ur66.py" beforeDir="false" afterPath="$PROJECT_DIR$/Uroki/ur66.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ur67.py" beforeDir="false" afterPath="$PROJECT_DIR$/Uroki/ur67.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ur68.py" beforeDir="false" afterPath="$PROJECT_DIR$/Uroki/ur68.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ur69.py" beforeDir="false" afterPath="$PROJECT_DIR$/Uroki/ur69.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ur70.py" beforeDir="false" afterPath="$PROJECT_DIR$/Uroki/ur70.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ur71.py" beforeDir="false" afterPath="$PROJECT_DIR$/Uroki/ur71.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ur72.py" beforeDir="false" afterPath="$PROJECT_DIR$/Uroki/ur72.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ur73.py" beforeDir="false" afterPath="$PROJECT_DIR$/Uroki/ur73.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ur74.py" beforeDir="false" afterPath="$PROJECT_DIR$/Uroki/ur74.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ur75.py" beforeDir="false" afterPath="$PROJECT_DIR$/Uroki/ur75.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ur76.py" beforeDir="false" afterPath="$PROJECT_DIR$/Uroki/ur76.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ur77.py" beforeDir="false" afterPath="$PROJECT_DIR$/Uroki/ur77.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ur78.py" beforeDir="false" afterPath="$PROJECT_DIR$/Uroki/ur78.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ur79.py" beforeDir="false" afterPath="$PROJECT_DIR$/Uroki/ur79.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ur80.py" beforeDir="false" afterPath="$PROJECT_DIR$/Uroki/ur80.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ur81.py" beforeDir="false" afterPath="$PROJECT_DIR$/Uroki/ur81.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +168,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <branch-grouping />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="master" />
@@ -39,12 +182,12 @@
     &quot;assignee&quot;: &quot;BED24&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/BED24/testing.git&quot;,
-    &quot;accountId&quot;: &quot;27f0555a-a204-4531-9032-513eda78d840&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/BED24/Zachet",
+    "accountId": "1ac9dae3-c576-406d-8b07-18f80c5ee9fe"
   }
-}</component>
+}]]></component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -60,6 +203,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
+    "Python.app.executor": "Run",
+    "Python.find_weather_bot.executor": "Debug",
     "Python.main.executor": "Run",
     "Python.prg1.executor": "Run",
     "Python.qqqw.executor": "Run",
@@ -88,26 +233,57 @@
     "Python.ur81.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "pythone.esson0",
-    "last_opened_file_path": "C:/Users/Bad/Desktop/proba/static/images",
-    "settings.editor.selected.configurable": "preferences.externalTools"
+    "last_opened_file_path": "C:/Users/Bad/Desktop/proba",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   },
   "keyToStringList": {
     "ChangesTree.GroupingKeys": [
       "directory"
+    ],
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "PLAIN_TEXT"
     ]
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Bad\Desktop\proba\static\images" />
       <recent name="C:\Users\Bad\Desktop\proba" />
-      <recent name="C:\Users\Bad\Desktop\proba\unearth\images" />
+      <recent name="C:\Users\Bad\Desktop\proba\templates" />
+      <recent name="C:\Users\Bad\Desktop\proba\images" />
+      <recent name="C:\Users\Bad\Desktop\proba\fonts" />
+      <recent name="C:\Users\Bad\Desktop\proba\static\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Bad\Desktop\proba\images" />
+      <recent name="C:\Users\Bad\Desktop\proba\flask_app" />
       <recent name="C:\Users\Bad\Desktop\proba" />
+      <recent name="C:\Users\Bad\Desktop\proba\css" />
+      <recent name="C:\Users\Bad\Desktop\proba\static" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager">
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="proba" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\Bad\Desktop\proba\app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="proba" />
       <option name="ENV_FILES" value="" />
@@ -143,29 +319,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/qqqw2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="qqqw5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="proba" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/qqqw5.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Bad\Desktop\proba\Uroki\qqqw2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -187,7 +341,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ur75.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Bad\Desktop\proba\Uroki\ur75.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -209,7 +363,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ur76.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Bad\Desktop\proba\Uroki\ur76.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -220,11 +374,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.app" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.ur75" />
         <item itemvalue="Python.ur76" />
         <item itemvalue="Python.qqqw2" />
-        <item itemvalue="Python.qqqw5" />
       </list>
     </recent_temporary>
   </component>
@@ -348,7 +502,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732486508906</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="dz kopiy">
+      <option name="closed" value="true" />
+      <created>1732489431320</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1732489431320</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -385,7 +547,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/ur74.py</url>
+          <url>file://$PROJECT_DIR$/Uroki/ur74.py</url>
           <line>7</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>

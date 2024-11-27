@@ -1,0 +1,112 @@
+/* Основной фон страницы */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212 !important; /* Темный фон */
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Заголовок */
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+    color: #ff5722;
+    text-transform: uppercase;
+    text-decoration: underline;
+    letter-spacing: 2px;
+}
+
+/* Контейнер для текста и таблицы */
+.container {
+    padding: 40px;
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Стили для блока контактов */
+.contact-info {
+    background-color: #333;
+    border-radius: 10px;
+    padding: 30px;
+    margin-top: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.contact-info table {
+    margin: 0 auto;
+    width: 100%;
+    color: #ccc;
+}
+
+.contact-info td {
+    padding: 15px;
+    font-size: 18px;
+    text-align: left;
+}
+
+.contact-info td a {
+    color: #ff522;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-info td a:hover {
+    text-decoration: underline;
+}
+
+/* Стили для кнопки на главную */
+.back-link {
+    display: inline-block;
+    font-size: 18px;
+    color: #ff5722;
+    margin-top: 30px;
+    text-decoration: none;
+    border: 2px solid #ff5722;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.back-link:hover {
+    background-color: #ff5722;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+/* Социальные ссылки */
+.social-links {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-links a {
+    color: #ff5722;
+    font-size: 30px;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #ff7043;
+}
+
+/* Разделитель */
+hr {
+    border: 1px solid #444;
+    width: 50%;
+    margin: 30px auto;
+}
+/* Цвет для заголовка "Наши Контакты" */
+.contact-info h3 {
+    color: #AAAA00; /* Измените на любой цвет по вашему выбору */
+}
+
+/* Цвет для номера телефона */
+.contact-info td.phone-number {
+    color: #009900; /* Установите желаемый цвет */
+    font-weight: bold; /* Жирный текст (по желанию) */
+}
