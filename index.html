@@ -106,21 +106,7 @@
                     });
                 });
 
-                // Получение данных о погоде
-                $("#getWeatherBtn").click(function() {
-                    $.get("/weather", function(data) {
-                        if (data) {
-                            var weatherHtml =
-                                `<p><strong>Температура:</strong> ${data.temperature}°C</p>
-                                 <p><strong>Описание:</strong> ${data.description}</p>
-                                 <p><strong>Влажность:</strong> ${data.humidity}%</p>
-                                 <p><strong>Скорость ветра:</strong> ${data.wind_speed} м/с</p>`;
-                            $("#weatherInfo").html(weatherHtml);
-                        } else {
-                            $("#weatherInfo").html("<p>Не удалось получить данные о погоде.</p>");
-                        }
-                    });
-                });
+
             </script>
             </body>
 
@@ -130,33 +116,36 @@
                 <link rel="stylesheet"
                       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
             </head>
-            <body>
-            <div class="container">
-                <button id="getWeatherBtn" class="btn btn-primary">Получить погоду</button>
-                <div id="weatherInfo" class="mt-3">
-                </div>
-            </div>
-            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
-            <script>
-                // Когда нажимают на кнопку, делаем запрос на сервер
-                $("#getWeatherBtn").click(function() {
-                    $.get("/weather", function(data) {
-                        if (data) {
-                            var weatherHtml =
-                                <p><strong>Температура:</strong> ${data.temperature}°C</p>
-                                <p><strong>Описание:</strong> ${data.description}</p>
-                                <p><strong>Влажность:</strong> ${data.humidity}%</p>
-                                <p><strong>Скорость ветра:</strong> ${data.wind_speed} м/с</p>
-                            ;
-                            $("#weatherInfo").html(weatherHtml);
-                        } else {
-                            $("#weatherInfo").html("<p>Не удалось получить данные о погоде.</p>");
-                        }
-                    });
+        <!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Погода</title>
+</head>
+<body>
+    <button id="weatherButton">Получить погоду</button>
+    <div id="weatherResult">
+        <!-- Здесь будет отображаться информация о погоде -->
+    </div>
+
+    <script>
+        document.getElementById('weatherButton').addEventListener('click', function() {
+            // Получаем данные о погоде с помощью внешнего сервиса (например, wttr.in)
+            fetch('https://wttr.in/?format=%C+%t+%h+%w')
+                .then(response => response.text())
+                .then(data => {
+                    // Отображаем результат
+                    document.getElementById('weatherResult').innerText = data;
+                })
+                .catch(error => {
+                    console.error('Ошибка:', error);
+                    document.getElementById('weatherResult').innerText = 'Не удалось получить данные о погоде.';
                 });
-            </script>
-            </body>
+        });
+    </script>
+</body>
+</html>
 
             <div class="float-right">
 
@@ -248,9 +237,8 @@
                      data-aos="fade-right" data-aos-delay="">
                 </div>
 
-
                 <div class="col-lg-5 ml-auto p-lg-5 mt-4 mt-lg-0" data-aos="fade-left" data-aos-delay="">
-                    <h2 class="mb-3 text-black">Кулирная гладь с лайкрой</h2>
+                    <h2 class="mb-3 teппxt-black">Кулирная гладь с лайкрой</h2>
                     <p>Тонкий хлопковый трикотаж, который отлично тянется. Из данной ткани шью пижамы, футболки,
                         нижнее белье и многое другое. Компакт пенье - это наивысшее качество кулирки для рукоделия,
                         для которого используются максимально длинные и гладкие волокна. Для него характерна
