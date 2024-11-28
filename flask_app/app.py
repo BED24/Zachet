@@ -131,7 +131,6 @@ def add_comment():
 
         cur.close()
         conn.close()
-
         return jsonify({"message": "Комментарий успешно добавлен!"}), 200
     else:
         return jsonify({"error": "Комментарий не может быть пустым!"}), 400
